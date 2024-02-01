@@ -31,11 +31,11 @@ $products = [
 $productId = 103;
 $product = get_product($products, $productId);
 
-/*if(count($product) > 0) {
+if(count($product) > 0) {
     echo 'Product Name: ' . $product['name'] . "\n";
     echo 'Product Price: ' . $product['price'] . "\n";
 } else {
     echo "Product is not available";
-}*/
+}
 
 ?>
