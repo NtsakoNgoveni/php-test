@@ -19,7 +19,7 @@ class Product {
         return $productDetails;
     }
 }
-//The code below is for testing purposes.
+//Comment this
 
 /*echo "Task 2 test \n";
 $products = [

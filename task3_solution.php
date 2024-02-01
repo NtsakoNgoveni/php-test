@@ -32,6 +32,7 @@ function get_products_data($spreadsheetId) {
     }
      return $products;
 }
+//Comment this
 /*
 $products = get_products_data("1BYojOzsQ08cD3K5UNAUYd0vUoxOJoQvxPnfiJbubQ2o");
 $product = get_product($products, 102);

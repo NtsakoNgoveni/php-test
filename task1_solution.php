@@ -27,7 +27,7 @@ $products = [
     ['id' => 102, 'name' => 'Product 2', 'price' => 75.00],
     ['id' => 103, 'name' => 'Product 3', 'price' => 120.00],
 ];
-
+//Comment this
 $productId = 103;
 $product = get_product($products, $productId);
 
