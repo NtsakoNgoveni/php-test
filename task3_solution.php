@@ -3,7 +3,6 @@
 require __DIR__ ."/vendor/autoload.php";
 include("task2_solution.php");
 use Google\Service\Sheets;
-echo "task3";
 
 function get_products_data($spreadsheetId) {
     $client = new Google_Client();
@@ -17,7 +16,6 @@ function get_products_data($spreadsheetId) {
     $products = [];
     foreach ($sheetsMetadata as $sheetMetadata) {
         $sheetName = $sheetMetadata->properties->title;
-        echo $sheetName . " Sheetname<br/>";
         $range = $sheetName;
         $response = $service->spreadsheets_values->get($spreadsheetId, $range);
         $values = $response->getValues();
