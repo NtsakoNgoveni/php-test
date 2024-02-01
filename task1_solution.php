@@ -1,6 +1,6 @@
 <?php
 /*
- * get_products - Retrives the details of the product with a matching productId
+ * get_product - Retrives the details of the product with a matching productId
  * products - A multi dimensional array where each element is an array of a product and its details
  * productId - The ID of the product that should be retrieved
  * Return - On succes returns product details or empty, on failure throws exception
